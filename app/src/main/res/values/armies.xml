@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="armies_array">
+        <item>Deathguard</item>
+        <item>Adeptus Mechanicus</item>
+    </string-array>
+</resources>

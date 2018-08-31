@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bci.edwijninga.a40k_api_with_scanner">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_40kapiicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".scannerActivity" />
+        <activity android:name=".setupGameActivity" />
+        <activity android:name=".GenerateScenarioActivity" />
+        <activity android:name=".ScenarioListActivity" />
+        <activity android:name=".scenarioDetailActivity" />
+        <activity android:name=".ObjectiveListActivity" />
+        <activity android:name=".ObjectiveDetailActivity" />
+        <activity android:name=".FirstPlayerActivity" />
+        <activity android:name=".TurnActivity" />
+        <activity android:name=".EndGameActivity"></activity>
+    </application>
+
+</manifest>
